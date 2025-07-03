@@ -9,17 +9,23 @@ int main() {
     int b = rand() % 6 + 1;
     int c = a+b;
 
+    string x;
+    
+    cout << "What is your name?"<< endl;
+    cin >> x;
+    cout << "Hello, "<< x << "!" << endl;
+
     cout << "Rolling dice..."<< endl;
     cout << "Die 1: "<<a<< endl;
     cout << "Die 2: "<<b<< endl;
     cout << "Total value: "<<c<< endl;
 
     if( c > 7 ){
-        cout << "You won" << endl;
+        cout << x << " won" << endl;
     }
     
     if( c <= 7 ){
-        cout << "You lost" << endl;
+        cout << x << " lost" << endl;
     }
 
     return 0;
