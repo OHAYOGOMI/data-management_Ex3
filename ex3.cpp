@@ -21,7 +21,7 @@ int main() {
     cout << "Total value: "<<c<< endl;
 
     if( c > 7 ){
-        cout << x << " won" << endl;
+        cout << x << " won!" << endl;
     }
     
     if( c <= 7 ){
