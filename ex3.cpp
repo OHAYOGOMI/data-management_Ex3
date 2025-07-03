@@ -7,6 +7,11 @@ int main() {
     
     int a = rand() % 6 + 1;
     int b = rand() % 6 + 1;
+    string x;
+    
+    cout << "What is your name?"<< endl;
+    cin >> x;
+    cout << "Hello, "<< x << "!" << endl;
 
     cout << "Rolling dice..."<< endl;
     cout << "Die 1: "<<a<< endl;
